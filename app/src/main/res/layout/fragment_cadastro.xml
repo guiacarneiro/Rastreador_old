@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".Fragments.LoginFragment"
+        android:id="@+id/fragment_login">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/teste2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:nestedScrollingEnabled="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nome/Nickname"
+            android:ems="10"
+            android:id="@+id/nome_cadastro"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="36dp"
+            android:layout_alignEnd="@+id/telefone_cadasdro"
+            android:layout_alignStart="@+id/conf_senha_cadastro"
+            android:background="@drawable/edit_text_layout"
+             />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="(0XX) XXXXXXX"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:id="@+id/telefone_cadasdro"
+            android:layout_below="@+id/nome_cadastro"
+            android:layout_alignEnd="@+id/senha_cadastro"
+            android:layout_alignStart="@+id/conf_senha_cadastro"
+            android:background="@drawable/edit_text_layout"
+             />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:id="@+id/senha_cadastro"
+            android:hint="Senha"
+            android:layout_below="@+id/telefone_cadasdro"
+            android:layout_alignStart="@+id/conf_senha_cadastro"
+            android:layout_alignEnd="@+id/conf_senha_cadastro"
+            android:background="@drawable/edit_text_layout"
+             />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="36dp"
+            android:hint="Confirmar_Senha"
+            android:ems="10"
+            android:id="@+id/conf_senha_cadastro"
+            android:layout_below="@+id/senha_cadastro"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_layout"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enviar"
+            android:id="@+id/enviar_cadastro"
+            android:layout_below="@+id/conf_senha_cadastro"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text_layout"
+            android:layout_alignEnd="@+id/conf_senha_cadastro"
+            android:layout_alignStart="@+id/conf_senha_cadastro" />
+    </RelativeLayout>
+</ScrollView>

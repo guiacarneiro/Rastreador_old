@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rastreador</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_rastrear">RastrearActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bRastrear">Rastrear GPS</string>
+    <string name="opcaoRastreamento">Opções de Rastreamento</string>
+    <string name="obterLocalAtual">Obter Localização Atual</string>
+    <string name="title_activity_configure">ConfigureActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_cadastro__login">Cadastro_LoginActivity</string>
+    <string name="google_app_id">vernal-signal-107221</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Rastreador">Rastreador</string>
+</resources>
